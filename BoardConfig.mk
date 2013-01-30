@@ -20,11 +20,5 @@
 #Video Devices
 BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 
-# Kernel Config
-TARGET_KERNEL_CONFIG := cyanogenmod_galaxysmtd_defconfig
-
-# Recovery
-BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/galaxysmtd/recovery/recovery_keys.c
-
 # Import the aries-common BoardConfigCommon.mk
 include device/samsung/aries-common/BoardConfigCommon.mk
