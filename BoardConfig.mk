@@ -23,11 +23,6 @@ BOARD_SECOND_CAMERA_DEVICE := /dev/video2
 # Kernel Config
 TARGET_KERNEL_CONFIG := cyanogenmod_galaxysmtd_defconfig
 
-# FM Radio
-BOARD_HAVE_FM_RADIO := true
-BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
-BOARD_FM_DEVICE := si4709
-
 # Recovery
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/samsung/galaxysmtd/recovery/recovery_keys.c
 
