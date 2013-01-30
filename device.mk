@@ -36,14 +36,14 @@
 
 # These are the hardware-specific configuration files
 DEVICE_PACKAGE_OVERLAYS += \
-	device/samsung/galaxysmtd/overlay
+	device/samsung/m110s/overlay
 
 PRODUCT_COPY_FILES := \
-	device/samsung/galaxysmtd/asound.conf:system/etc/asound.conf
+	device/samsung/m110s/prebuilts/asound.conf:system/etc/asound.conf
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
-	device/samsung/galaxysmtd/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl
+	device/samsung/m110s/prebuilts/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl
 
 # We have FFC
 PRODUCT_COPY_FILES += \
